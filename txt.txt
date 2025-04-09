@@ -1,0 +1,23 @@
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #developerName {
+        font-size: 3em;
+    }
+
+    .dashboard {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+        padding-top: 80px;
+    }
+    .progress-bar {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    #developerName {
+        font-size: 2em;
+    }
+    .progress-bar {
+        width: 90%;
+    }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="index.html">
+    <title>Project 1 - My Portfolio</title>
+    <link rel="stylesheet" href="project1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="dark-theme">
+    <body>
+        </body>
+    <div id="content" class="hidden">
+        <header>
+            <div class="name-container">
+                <img src="pp.jpg" alt="Your Profile Photo" class="profile-photo">
+                <h1 id="developerName">  Fredrick Yegrim</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown-menu">
+                <div class="dropdown-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#contact-form">Contact</a>
+                </div>
+            </div>
+        </header>
+        <main class="project-page">
+            <section class="project-details section">
+                <h1>Project 1: Data Visualization Showcase</h1>
+
+                <div class="graph-container">
+                    <h2>Website Traffic</h2>
+                    <canvas id="barChart"></canvas>
+                    <p class="graph-description">This bar graph provides a detailed visualization of the number of website visits recorded over the past six months, offering valuable insights into user engagement trends.</p>
+                </div>
+
+                <div class="graph-container">
+                    <h2>Technology Usage</h2>
+                    <canvas id="pieChart"></canvas>
+                    <p class="graph-description">This pie chart provides a comprehensive breakdown of the various technologies utilized in my recent projects, highlighting their relative usage and significance.</p>
+                </div>
+
+                <div class="graph-container">
+                    <h2>Project Completion Rate</h2>
+                    <canvas id="lineChart"></canvas>
+                    <p class="graph-description">This line chart visually represents the percentage of projects successfully completed over the past five quarters, providing a clear view of performance trends over time.</p>
+                </div>
+
+                <div class="project-description">
+                    <h3>Description</h3>
+                    <p>This project demonstrates various ways to visualize data using JavaScript charting libraries. It features a bar graph showing website traffic over the past months, a pie chart illustrating the distribution of technologies used in my projects, and a line chart tracking the project completion rate over time.</p>
+                    <p>The visualizations are created using the Chart.js library, showcasing its ability to render data in multiple formats with customizable options.</p>
+                </div>
+
+                <div class="project-links">
+                    <a href="#" target="_blank">View Live Demo (Placeholder)</a> | <a href="#" target="_blank">View Source Code (Placeholder)</a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script_project1.js"></script>
+</body>
+</html>

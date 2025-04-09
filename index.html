@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loader">
+        <div class="blackhole"></div>
+        <div class="loading-text">Loading...</div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+    <div id="content" class="hidden">
+        <header>
+            <div class="name-container">
+                <img src="pp.jpg" alt="Your Profile Photo" class="profile-photo">
+                <h1 id="developerName">Fredrick Yegrim</h1>
+            </div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            <div class="dropdown-menu">
+                <div class="dropdown-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#contact-form">Contact</a>  </div>
+            </div>
+        </header>
+         <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Data Visualization</a></li> <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>        
+        <div class="dashboard show">
+            <section class="section">
+                <h2>About Me</h2>
+                <p>A passionate developer with a love for creating innovative solutions...</p>
+            </section>
+            <section class="section">
+                <h2>Projects</h2>
+                <div class="project-list">
+                    <a href="project1.html" class="project-item">Project 1: Random Data Visualizer</a>
+                    <span class="project-item">Project B</span>
+                </div>
+            </section>
+            <section class="section">
+                <h2>Experience</h2>
+                <div class="experience-list">
+                    <span class="experience-item">Company X</span>
+                    <span class="experience-item">Freelance</span>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="70"></div>
+            </section>
+        </div>
+    </section>
+    </div>
+    </div>
+    <form action="https://formsubmit.co/yashtripathi409@gmail.com" method="POST" id="contact-form">
+        <input type="text" name="name" required placeholder="Your Name">
+        <input type="email" name="email" required placeholder="Your Email">
+        <textarea name="message" required placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    <script src="script.js"></script>
+    <footer>
+                                                        <p>© 2025 My Portfolio. All Rights Reserved.</p>
+    </footer> 
+    </div>
+    </body>
+</html>
